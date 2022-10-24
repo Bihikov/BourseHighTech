@@ -1,8 +1,10 @@
 html {
+    height: auto;
     width: 1440px;
     font-family: 'a Atmospheric', sans-serif;
 }
 body {
+    height: auto;
     width: 1440px;
 }
 .headers{
@@ -50,7 +52,7 @@ a{
     margin-left: 0px;
 }
 
-img{
+.headers  img{
     width: 50px;
     height: 50px;
 }
@@ -63,4 +65,31 @@ img{
     float: inline-start;
     margin-top: 50px;
     margin-left: 35px;
+}
+
+.mains{
+    display: flex;
+
+}
+.mosaique{
+    background-color: #c5d6f6;
+    width: 50%;
+}
+.presentation{
+    background-color: #c5d6f6;
+    width: 50%;
+}
+
+.mains img{
+    margin-left: 25px;
+    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+}
+#center{
+    text-align: center;
+}
+
+.map{
+    
 }
