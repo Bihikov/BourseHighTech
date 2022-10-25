@@ -74,19 +74,20 @@ a{
 
 }
 .mosaique{
-    background-color: #c5d6f6;
+    background-color: #e4e4e4;
     width: 50%;
 }
 .presentation{
-    background-color: #c5d6f6;
+    background-color: #e4e4e4;
     width: 50%;
 }
 
 .mains img{
     margin-left: 25px;
-    border-radius: 10%;
-    width: 250px;
-    height: 250px;
+    border-radius: 23px;
+    width: 234px;
+    height: 185px;
+    margin-top: 20px;
 }
 #center{
     text-align: center;
@@ -94,13 +95,21 @@ a{
 
 form{
     margin: 0 auto;
-    width: 400px;
+    width: 700px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
 }
 label{
     display: inline-block;
-    width: 90px;
+    width: 250px;
     text-align: right;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+}
+.formulaire{
+    align-items: left;    
+
 }
