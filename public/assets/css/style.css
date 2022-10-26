@@ -1,5 +1,5 @@
 footer{
-
+    font-family: 'a atmospheric';
     background-color: #3E638D;
 
     
@@ -38,27 +38,30 @@ footer{
     
     justify-content: space-between;
     margin-top: 60px;
+    font-size: 10px;
 }
 
 
 .socialLink{
     float: right;
-    margin-top: 65px; 
+    margin-top: 20px; 
     padding: 0px;
-    margin-left: 150px;
+    margin-left: 100px;
+    
    
 }
 
 .politique{
     margin-left: 200px;
 }
-.adress{
+/* .adress{
     padding-top: 0px;
     margin-top: 0px;
     text-align: center;
     margin-bottom: 0px;
     padding-bottom:0px;
-}
+    
+} */
 a{
     text-decoration: none;
     color: #e4e4ee;
@@ -69,7 +72,17 @@ img{
     height: 50px;
     width: 50px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 
+}
+#corona{
+    width: 677px;
+    height: 85px;
+    margin-left: 100px;
+}
+#amiens{
+    width: 65px;
+    height: 50px;
+    margin-top: 10px;
 }
