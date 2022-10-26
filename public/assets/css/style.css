@@ -10,6 +10,7 @@ body {
   margin: 0;
 }
 
+/* Header */
 header .headers {
   background-size: 1500px;
   background: url(../img/header.png);
@@ -84,7 +85,9 @@ header #imgConnexion {
   margin-top: 50px;
   margin-left: 33px;
 }
+/* Main */
 
+/* Footer */
 footer {
   background-color: #3e638d;
   height: 150px;
