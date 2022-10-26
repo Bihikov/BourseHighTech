@@ -14,14 +14,15 @@ html {
     display: flex;
   }
   header #title {
-    text-shadow: black 5px 5px 5px, black -1 1px, black -1px -1px, black 1px -1px;
     float: left;
     width: 350px;
     margin-top: 25px;
     margin-left: 50px;
     color: #E4E4E4;
     font-size: 86px;
+    text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, rgba(0, 0, 0, 0.632) 5px 5px 5px ;; 
   }
+/* contour + dernier black transparent shadow */
   header .nav {
     width: 250px;
     height: 150px;
@@ -36,13 +37,23 @@ html {
     color: #E4E4E4;
   }
   header #Acceuil {
-    font-size: 25px;
-    margin-top: 65px;
+    font-size: 20px;
+    margin-top: 70px;
     margin-left: 0px;
   }
   header #Information {
-    font-size: 25px;
-    margin-top: 65px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -7px;
+  }
+  header #Reserver {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 0px;
+  }
+  header #Connexion {
+    font-size: 20px;
+    margin-top: 70px;
     margin-left: 0px;
   }
   header img {
@@ -52,12 +63,22 @@ html {
   header #imgAcceuil {
     float: inline-start;
     margin-top: 50px;
-    margin-left: 350px;
+    margin-left: 150px;
   }
   header #imgInformation {
     float: inline-start;
     margin-top: 50px;
+    margin-left: 23px;
+  }
+  header #imgReserver {
+    float: inline-start;
+    margin-top: 50px;
     margin-left: 35px;
+  }  
+  header #imgConnexion {
+    float: inline-start;
+    margin-top: 50px;
+    margin-left: 33px;
   }
   /* Main */
 
