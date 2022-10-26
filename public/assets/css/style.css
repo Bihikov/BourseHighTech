@@ -1,0 +1,75 @@
+footer{
+
+    background-color: #3E638D;
+
+    
+}
+.contenair{
+    display: flex;
+    align-items: center;
+ 
+    /* background-size: cover; */
+     }
+
+.coordinates{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px; 
+    list-style: none;
+    color: #e4e4e4;
+    float: left; 
+}
+.infoFooter{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 40px;
+    /* background-size: cover; */
+    
+} 
+/* #lamanu{
+    float: left; 
+    margin: right 45px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+} */
+
+.officialDoc{
+    
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.socialLink{
+    float: right;
+    margin-top: 65px; 
+    padding: 0px;
+    margin-left: 150px;
+   
+}
+
+.politique{
+    margin-left: 200px;
+}
+.adress{
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
+a{
+    text-decoration: none;
+    color: #e4e4ee;
+    margin-left: 20px;
+    
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+
+}
