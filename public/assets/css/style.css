@@ -8,97 +8,59 @@ body {
     height: 100vh;
     margin: auto;
 }
-.headers{
-    background-size: 1500px;
-    background: url(../img/header.png);
-    width: 100%;
-    height: 150px;
-    display: flex;
-}
-#title {
-    text-shadow: black 5px 5px 5px , black -1px 1px, black -1px -1px, black 1px -1px;
-    float: left;
-    width: 350px;
-    margin-top: 25px;
-    margin-left: 50px;
-    color: #E4E4E4;
-    font-size: 86px;
-}
-.nav{
-    height: 150px;
-    margin-left: 1150px;
-}
-a{
-    float: none;
-    margin-top: 50px;
-    margin-left: 146px;
-    margin-right: 0px;
-    text-decoration: none;
-    color: #E4E4E4;
-}
-.btn{
-    float: right;
-    margin-top: 20px;
-    margin-right: 140px;
-
-}
-#Information{
-    font-size: 25px;
-    margin-top: 65px;
-    margin-left: 0px;
-}
-#Acceuil{
-    font-size: 25px;
-    margin-top: 65px;
-    margin-left: 0px;
-}
-
-.headers  img{
-    width: 50px;
-    height: 50px;
-}
-#imgAcceuil{
-    float: inline-start;
-    margin-top: 50px;
-    margin-left: 350px;
-}
-#imgInformation{
-    float: inline-start;
-    margin-top: 50px;
-    margin-left: 35px;
-}
-
 .mains{
     height: 50%;
     display: flex;
 
 }
 .mosaique{
-    background-color: #e4e4e4;
-    width: 50%;
+    width: 40%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
-.presentation{
-    background-color: #e4e4e4;
-    width: 50%;
-}
-
 .mains img{
-    margin-left: 25px;
+    margin-left: 20px;
     border-radius: 23px;
     width: 234px;
     height: 185px;
     margin-top: 20px;
 }
-#center{
+.presentation{
+    width: 60%;
+    text-align: justify;
+    padding-top: 12px;
+    padding-right: 50px;
+    line-height: 26px;
+    font-size: 21px;
+}
+.center{
+    font-size: 30px;
+    line-height: 40px;
     text-align: center;
 }
+.center img{
+    width: 180px;
+    height: 60px;
+}
+.formulaire{
+    display: flex;
+    align-items: center;
+    background-color: #e4e4e4;
 
+}
+/* modification formulaire : ajout background color suppression border */
 form{
     margin: 0 auto;
-    width: 700px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+legend{
+    font-size: 24px;
+    color: #3e638d;
+    text-shadow: 2px 0 0 #000000;
 }
 label{
     display: inline-block;
@@ -109,7 +71,34 @@ label{
     display: flex;
     flex-direction: column;
 }
-.formulaire{
-    align-items: left;    
-
+.maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.plandacces{
+    font-size: 24px;
+    color: #3e638d;
+    text-shadow: 2px 0 0 #000000;
+    text-align: center;
+}
+.map{
+    padding-left: 200px;
+    padding-top : 50px;
+}
+.blocplan{
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    padding-top : 33px;
+}
+.adresse{
+    text-align: center;
+}
+.planbus img{
+    border-radius: 23px;
+    padding-top: 10px;
+}
+.planbus{
+    border: #000000 1px;
 }
