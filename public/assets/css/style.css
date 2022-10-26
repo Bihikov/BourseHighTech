@@ -6,7 +6,7 @@ html {
   body {
     margin: 0;
   }
-  /* Headers */
+  
   header .headers {
     background: url(../img/header.png);
     width: 1500px;
@@ -20,9 +20,8 @@ html {
     margin-left: 50px;
     color: #E4E4E4;
     font-size: 86px;
-    text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, rgba(0, 0, 0, 0.632) 5px 5px 5px ;; 
+    text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black, rgba(0, 0, 0, 0.632) 5px 5px 5px;
   }
-/* contour + dernier black transparent shadow */
   header .nav {
     width: 250px;
     height: 150px;
@@ -74,15 +73,13 @@ html {
     float: inline-start;
     margin-top: 50px;
     margin-left: 35px;
-  }  
+  }
   header #imgConnexion {
     float: inline-start;
     margin-top: 50px;
     margin-left: 33px;
   }
-  /* Main */
-
-  /* Footers */
+  
   footer {
     background-color: #3e638d;
   }
@@ -134,4 +131,4 @@ html {
     width: 50px;
     margin-bottom: 20px;
     margin-left: 20px;
-  }
+  }/*# sourceMappingURL=style.css.map */
