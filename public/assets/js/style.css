@@ -1,0 +1,114 @@
+html {
+  width: 1500px;
+  font-family: "a Atmospheric", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header .headers {
+  background: url(../img/header.png);
+  width: 1500px;
+  height: 150px;
+  display: flex;
+}
+header #title {
+  text-shadow: black 5px 5px 5px, black -1 1px, black -1px -1px, black 1px -1px;
+  float: left;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 50px;
+  color: #E4E4E4;
+  font-size: 86px;
+}
+header .nav {
+  width: 250px;
+  height: 150px;
+  margin-left: 1150px;
+}
+header a {
+  float: none;
+  margin-top: 50px;
+  margin-left: 146px;
+  margin-right: 0px;
+  text-decoration: none;
+  color: #E4E4E4;
+}
+header #Acceuil {
+  font-size: 25px;
+  margin-top: 65px;
+  margin-left: 0px;
+}
+header #Information {
+  font-size: 25px;
+  margin-top: 65px;
+  margin-left: 0px;
+}
+header img {
+  width: 50px;
+  height: 50px;
+}
+header #imgAcceuil {
+  float: inline-start;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+header #imgInformation {
+  float: inline-start;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+footer {
+  background-color: #3e638d;
+}
+footer .contenair {
+  display: flex;
+  align-items: center;
+}
+footer .coordinates {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 150px;
+  list-style: none;
+  color: #e4e4e4;
+  float: left;
+}
+footer .infoFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+footer .officialDoc {
+  justify-content: space-between;
+  margin-top: 60px;
+}
+footer .socialLink {
+  float: right;
+  margin-top: 65px;
+  padding: 0px;
+  margin-left: 150px;
+}
+footer .politique {
+  margin-left: 200px;
+}
+footer .adress {
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+footer a {
+  text-decoration: none;
+  color: #E4E4E4;
+  margin-left: 20px;
+}
+footer img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */
