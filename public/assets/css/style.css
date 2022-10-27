@@ -63,29 +63,37 @@ header #Connexion {
   margin-top: 70px;
   margin-left: 0px;
 }
-header img {
-  width: 50px;
-  height: 50px;
-}
 header #imgAcceuil {
   float: inline-start;
   margin-top: 50px;
   margin-left: 250px;
+  width: 50px;
+  height: 50px;
 }
 header #imgInformation {
   float: inline-start;
   margin-top: 50px;
   margin-left: 23px;
+  width: 50px;
+  height: 50px;
 }
 header #imgReserver {
   float: inline-start;
   margin-top: 50px;
   margin-left: 35px;
+  width: 50px;
+  height: 50px;
 }
 header #imgConnexion {
   float: inline-start;
   margin-top: 50px;
   margin-left: 33px;
+  width: 50px;
+  height: 50px;
+}
+header #logosite {
+  height: 120px;
+  width: 350px;
 }
 
 main .total {
