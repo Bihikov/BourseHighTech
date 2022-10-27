@@ -94,6 +94,7 @@ header #imgConnexion {
 header #logosite {
   height: 120px;
   width: 350px;
+  margin-left: 50px;
 }
 
 main .total {
