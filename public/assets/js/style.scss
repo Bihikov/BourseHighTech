@@ -63,6 +63,7 @@ header{
         font-size: 20px;
         margin-top: 70px;
         margin-left: 0px;
+        padding-right: 25px;
     }
     
     #imgAcceuil{
@@ -96,6 +97,7 @@ header{
     #logosite{
         height: 120px;
         width: 350px;
+        padding-left: 50px;
     }
 }
 // Css pour body
@@ -126,7 +128,7 @@ main{
                     padding-top: 40px;
                     padding-right: 50px;
                     line-height: 26px;
-                    font-size: 21px;
+                    font-size: px;
                     .center{
                         font-size: 30px;
                         line-height: 40px;
@@ -211,6 +213,7 @@ main{
 footer{
     background-color: #3e638d;
     height: 150px;
+    width: auto;
     .contenair{
         display: flex;
         align-items: center;
@@ -227,7 +230,7 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 40px;
+        margin-left: 0px;
     }
     .officialDoc{
         justify-content: space-between;
@@ -236,8 +239,7 @@ footer{
     .socialLink{
         float: right;
         margin-top: 20px;
-        padding: 0px;
-        margin-left: 275px;
+        margin-left: 450px;
     }
     .politique{
         margin-left: 268px;
