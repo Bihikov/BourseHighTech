@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'a Atmospheric';
+  src: url('../Atmospheric-rg4aL.ttf');
+}
+
 html {
   width: 100vw;
   height: 100vh;
