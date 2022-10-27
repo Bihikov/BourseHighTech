@@ -18,7 +18,7 @@ body {
     padding-left: 70px;
     padding-top: 30px;
     padding-bottom: 50px;
-    padding-right: 50px;
+    padding-right: 25px;
 }
 .mains img{
     margin-left: 20px;
@@ -30,8 +30,8 @@ body {
 .presentation{
     width: 60%;
     text-align: justify;
-    padding-top: 55px;
-    padding-right: 90px;
+    padding-top: 40px;
+    padding-right: 50px;
     line-height: 26px;
     font-size: 21px;
 }
@@ -48,7 +48,8 @@ body {
     display: flex;
     align-items: center;
     background-color: #e4e4e4;
-
+    border-top: ridge 2px #000000;
+    border-bottom: ridge 2px #000000;
 }
 /* modification formulaire : ajout background color suppression border */
 form{
@@ -67,9 +68,15 @@ label{
     width: 250px;
     text-align: right;
 }
-.total{
-    display: flex;
-    flex-direction: column;
+#envoyer{
+    justify-items: center;
+    background: #3e638d;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 150px;
+    font-family: 'a Atmospheric', sans-serif;
 }
 .maps{
     display: flex;
@@ -85,13 +92,13 @@ label{
     padding-top: 25px;
 }
 .map{
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top : 20px;
 }
 .blocplan{
     display: flex;
     flex-direction: column;
-    padding-right: 200px;
+    padding-right: 100px;
     padding-top : 20px;
 }
 .adresse{
@@ -99,8 +106,5 @@ label{
 }
 .planbus img{
     border-radius: 23px;
-    padding-top: 10px;
-}
-.planbus{
-    border: #000000 1px;
+    border: ridge 1px black;
 }
