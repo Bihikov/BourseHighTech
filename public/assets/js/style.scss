@@ -9,7 +9,7 @@ body{
     height: 100vh;
     margin: 0;
 }
-
+// css pour le header
 header{
     .headers{
         background-size: 1500px;
@@ -85,11 +85,116 @@ header{
         margin-left: 33px;
     }
 }
-
+// Css pour body
 main{
-
+    .total{
+        display: flex;
+        flex-direction: column;
+            .mains{
+                height: 50%;
+                display: flex;
+                .mosaique{
+                    width: 40%;
+                    padding-left: 70px;
+                    padding-top: 30px;
+                    padding-bottom: 50px;
+                    padding-right: 25px;
+                    img{
+                        margin-left: 20px;
+                        border-radius: 23px;
+                        width: 234px;
+                        height: 185px;
+                        margin-top: 20px;
+                    }
+                }
+                .presentation{
+                    width: 60%;
+                    text-align: justify;
+                    padding-top: 40px;
+                    padding-right: 50px;
+                    line-height: 26px;
+                    font-size: 21px;
+                    .center{
+                        font-size: 30px;
+                        line-height: 40px;
+                        text-align: center;
+                        img{
+                            width: 180px;
+                            height: 60px;
+                        }
+                    }
+                }
+            }
+        .formulaire{
+            display: flex;
+            align-items: center;
+            background-color: #E4E4E4;
+            border-top: ridge 2px #000000;
+            border-bottom: ridge 2px #000000;
+            form{
+                margin: 0 auto;
+                padding-left: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                legend{
+                    font-size: 24px;
+                    color: #3e638d;
+                    text-shadow: 2px 0 0 black;
+                }
+                label{
+                    display: inline-block;
+                    width: 250px;
+                    text-align: right;
+                }
+                #envoyer{
+                    justify-items: center ;
+                    background: #3e638d;
+                    border-radius: 12px;
+                    border-color: white;
+                    color: white;
+                    height: 30px;
+                    width: 150px;
+                    font-family: 'a Atmospheric', sans-serif;
+                }
+            }
+        }
+        .plandacces{
+            font-size: 24px;
+            color: #3e638d;
+            text-shadow: 2px 0 0 #000000;
+            text-align: center ;
+            padding-top: 25px;
+        }
+        .maps{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 50px;
+            .map{
+                padding-left: 100px;
+                padding-top: 20px;
+            }
+            .blocplan{
+                display: flex;
+                flex-direction: column;
+                padding-right: 100px;
+                padding-top: 20px;
+                .adresse{
+                    text-align: center;
+                }
+                .planbus{
+                    border: #000000 1px;
+                    img{
+                        border-radius: 23px;
+                        border: ridge 1px black;
+                    }
+                }
+            }
+        }
+    }
 }
 
+/*   Css pour le footer */
 footer{
     background-color: #3e638d;
     height: 150px;
